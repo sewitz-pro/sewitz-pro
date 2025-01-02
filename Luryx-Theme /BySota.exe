@@ -6268,6 +6268,7 @@ local ClosureBindings = {
 
 	BackgroundImage = "rbxassetid://95421365510386",
 	BackgroundTransparency = 0.85,
+    	}
 	}
 end
 do
