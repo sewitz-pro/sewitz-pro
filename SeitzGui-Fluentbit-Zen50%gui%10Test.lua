@@ -394,8 +394,8 @@ local ObjectTree = {
 	}
 }
 
-if game:GetService("CoreGui"):FindFirstChild('Sewitz Hub') then
-	game:GetService("CoreGui"):FindFirstChild('Sewitz Hub'):Destroy()
+if game:GetService("CoreGui"):FindFirstChild('XZY Hub') then
+	game:GetService("CoreGui"):FindFirstChild('XZY Hub'):Destroy()
 end
 
 -- Holds direct closure data
@@ -420,7 +420,7 @@ local ClosureBindings = {
 		local ProtectGui = protectgui or (syn and syn.protect_gui) or function() end
 		local GUI = New("ScreenGui", {
 			Parent = RunService:IsStudio() and LocalPlayer.PlayerGui or game:GetService("CoreGui"),
-			Name = "Sewitz Hub"
+			Name = "XZY Hub"
 		})
 
 
@@ -439,7 +439,7 @@ local ClosureBindings = {
 			WindowFrame = nil,
 			Unloaded = false,
 
-			Theme = "Sewitz Theme",
+			Theme = "XZY RedDark",
 			DialogOpen = false,
 			UseAcrylic = false,
 			Acrylic = false,
@@ -6220,7 +6220,7 @@ local ClosureBindings = {
 		}
 	end,
 	[54] = function()local maui,script,require,getfenv,setfenv=ImportGlobals(54)return {
-        Name = "Sewitz Theme",
+        Name = "XZY RedDark",
 		Accent = Color3.fromRGB(255, 0, 0),
 
 		AcrylicMain = Color3.fromRGB(20, 20, 20),
